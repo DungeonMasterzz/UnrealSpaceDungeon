@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Source/DGM_Code/DGM_Code.Build.cs",
+		"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Source/DGM_Code.Target.cs",
+		"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Source/DGM_CodeEditor.Target.cs"
+	],
+	"EngineVersion": "5.7.0"
+}

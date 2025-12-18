@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Content/BP_PlayerChar_Base.uasset",
+				"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Content/BP_SpaceDungeonGameMode.uasset",
+				"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Content/ThirdPerson/Lvl_ThirdPerson.umap",
+				"/Users/mogboella/School/COMP_GRAPHICS/project/group_project/UnrealSpaceDungeon/DGM_Code/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+			]
+		}
+	]
+}
