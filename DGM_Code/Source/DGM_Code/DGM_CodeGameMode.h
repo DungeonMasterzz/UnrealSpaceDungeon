@@ -9,16 +9,13 @@
 /**
  *  Simple GameMode for a third person game
  */
-UCLASS(abstract)
+UCLASS()
 class ADGM_CodeGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	
+
 	/** Constructor */
 	ADGM_CodeGameMode();
 };
-
-
-
