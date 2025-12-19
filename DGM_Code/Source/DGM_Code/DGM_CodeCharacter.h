@@ -18,7 +18,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
  *  A simple player-controllable third person character
  *  Implements a controllable orbiting camera
  */
-UCLASS(abstract)
+UCLASS()
 class ADGM_CodeCharacter : public ACharacter
 {
 	GENERATED_BODY()
@@ -30,7 +30,7 @@ class ADGM_CodeCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
-	
+
 protected:
 
 	/** Jump Input Action */
@@ -52,7 +52,7 @@ protected:
 public:
 
 	/** Constructor */
-	ADGM_CodeCharacter();	
+	ADGM_CodeCharacter();
 
 protected:
 
@@ -93,4 +93,3 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 };
-
